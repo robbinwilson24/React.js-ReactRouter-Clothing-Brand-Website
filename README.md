@@ -4,9 +4,9 @@ A website for a fictitious clothing brand that I have created using React.js and
 ### Table of Contents
 1. [Description](#program-description)
 2. [Technologies Used](#technologies)
-3. [Features](#features)
-4. [How to install](#how-to-install)
-5. [Credits](#credits)
+3. [How to install](#how-to-install)
+4. [Credits](#credits)
+5. [Disclaimer](#disclaimer)
 
 ![image](https://user-images.githubusercontent.com/123034061/223580864-27bde6a7-dc1a-4706-b68a-d0f37a934f7e.png)
 
@@ -22,3 +22,48 @@ The website has several features, including:
    - Shopping page with a variety of products.
    - Finance page containing a functional interest calculator.
    - Basic user login page with a functional login/logout section.
+   
+
+## How to install and view the page: <a name="how-to-install"/>
+To install and view the page, follow these steps:
+
+1. Clone the repository to your local machine. 
+2. Navigate to the folder that contains the 'package' and 'package-lock' files. 
+3. In the file root path bar ( above the folders ) , Type in CMD to open command prompt: 
+ 
+![image](https://user-images.githubusercontent.com/123034061/220369949-febe92f6-adf6-465f-b492-18a8c9a25f43.png)
+
+![image](https://user-images.githubusercontent.com/123034061/220370249-e95b3074-9c7d-4a98-aebb-844a3782ef28.png)
+
+4. Once command prompt is open, in the command line, install the required dependencies by typing and running the following -  **"npm install"** 
+
+![image](https://user-images.githubusercontent.com/123034061/220371237-f24d3dae-ed52-478a-a7fb-de0ca27d6bea.png)
+
+5. Once this has finished installing, you can start the game by running the following in the command line -  **"npm start".**
+
+6.This will usually automatically open a web browser and launch the program. However, you can open it yourself if you go to "http://localhost:3000" in a browser.
+
+
+## Credits:<a name="credits"/>
+This page has been created by myself alone. 
+
+#### Photo Credits:
+The images on the website were obtained from www.pexels.com.
+As per the website, the following people are credited for the pictures:
+- Tembela Bohle
+- Daniel Reche
+- Daian Gan
+- Leah Kelly
+- Bryan Geraldo
+- Alex Andrews
+- Narcisa Aciko
+- Sora Shimazaki
+- Jimmy Jimmy
+- Aden Ardenrich
+- Miguel a Padrinan
+- Andrea Piacquadio
+- Ivan Samkov
+
+## Diclaimer:<a name="disclaimer"/>
+Please note that this project is not for profit and is intended to be used for demonstration and learning purposes only.
+Although the pictures had a free to use licence on pexels.com - All credit goes to the relevant photographers. 
