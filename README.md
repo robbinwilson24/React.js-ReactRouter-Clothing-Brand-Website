@@ -8,6 +8,7 @@ A website for a fictitious clothing brand that I have created using React.js and
 4. [Credits](#credits)
 5. [Disclaimer](#disclaimer)
 
+![image](https://user-images.githubusercontent.com/123034061/224018685-b6049ad2-cad6-4c33-9827-853af81a1a21.png)
 
 
 ## Description: <a name="program-description"/>
@@ -37,7 +38,8 @@ To install and view the page, follow these steps:
 
 4. Once command prompt is open, in the command line, install the required dependencies by typing and running the following -  **"npm install"** 
 
-![image](https://user-images.githubusercontent.com/123034061/220371237-f24d3dae-ed52-478a-a7fb-de0ca27d6bea.png)
+![image](https://user-images.githubusercontent.com/123034061/224018397-a080df28-2492-4e1c-85c4-becbd2495956.png)
+
 
 5. Once this has finished installing, you can start the game by running the following in the command line -  **"npm start".**
 
