@@ -1,5 +1,6 @@
 # React.js-ReactRouter-Clothing-Brand-Website
-A website for a fictitious clothing brand that I have created using React.js and CSS, as well as making using of React-Router. 
+A website for a fictitious clothing brand that I have created using React.js and React-Router. 
+Attractively styled using CSS.
 
 ### Table of Contents
 1. [Description](#program-description)
@@ -21,8 +22,8 @@ The website has several features, including:
    - Attractively styled pages.
    - Navigation bar and footer with working links to different pages.
    - Shopping page with a variety of products.
-   - Finance page containing a functional interest calculator.
-   - Basic user login page with a functional login/logout section.
+   - Finance page containing a functional interest calculator that uses state to output monthly repayment totals.
+   - Basic user login page utilising state to create a functional login/logout section.
    
 
 ## How to install and view the page: <a name="how-to-install"/>
