@@ -8,7 +8,7 @@ A website for a fictitious clothing brand that I have created using React.js and
 4. [Credits](#credits)
 5. [Disclaimer](#disclaimer)
 
-![image](https://user-images.githubusercontent.com/123034061/223580864-27bde6a7-dc1a-4706-b68a-d0f37a934f7e.png)
+
 
 ## Description: <a name="program-description"/>
 
@@ -30,8 +30,8 @@ To install and view the page, follow these steps:
 1. Clone the repository to your local machine. 
 2. Navigate to the folder that contains the 'package' and 'package-lock' files. 
 3. In the file root path bar ( above the folders ) , Type in CMD to open command prompt: 
- 
-![image](https://user-images.githubusercontent.com/123034061/220369949-febe92f6-adf6-465f-b492-18a8c9a25f43.png)
+
+![image](https://user-images.githubusercontent.com/123034061/224017721-739db8cf-5cc7-47aa-a6f2-f64b62c40af8.png)
 
 ![image](https://user-images.githubusercontent.com/123034061/220370249-e95b3074-9c7d-4a98-aebb-844a3782ef28.png)
 
