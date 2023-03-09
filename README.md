@@ -1,6 +1,6 @@
 # React.js-ReactRouter-Clothing-Brand-Website
-A website for a fictitious clothing brand that I have created using React.js and React-Router. 
-Attractively styled using CSS.
+##### A website for a fictitious clothing brand that I have created using React.js and React-Router. 
+##### Attractively styled using CSS.
 
 ### Table of Contents
 1. [Description](#program-description)
