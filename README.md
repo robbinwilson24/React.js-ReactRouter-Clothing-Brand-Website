@@ -25,6 +25,12 @@ The website has several features, including:
    - Finance page containing a functional interest calculator that uses state to output monthly repayment totals.
    - Basic user login page utilising state to create a functional login/logout section.
    
+   
+## Technologies Used: <a name="technologies"/>
+   - React.js
+   - React Router
+   - CSS
+   
 
 ## How to install and view the page: <a name="how-to-install"/>
 To install and view the page, follow these steps:
@@ -67,6 +73,6 @@ As per the website, the following people are credited for the pictures:
 - Andrea Piacquadio
 - Ivan Samkov
 
-## Diclaimer:<a name="disclaimer"/>
+## Disclaimer:<a name="disclaimer"/>
 Please note that this project is not for profit and is intended to be used for demonstration and learning purposes only.
-Although the pictures had a free to use licence on pexels.com - All credit goes to the relevant photographers. 
+Although the pictures had a free to use licence on pexels.com - All credit goes to the relevant photographers.
