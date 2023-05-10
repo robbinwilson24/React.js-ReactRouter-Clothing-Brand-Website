@@ -4,8 +4,8 @@ Attractively styled using CSS.
 
 I created this site to demonstrate my abilities in using React.js and to show that I am able to build a complete and functional site that is reactive and attractively styled. 
 
-**View a live version of the page here:** <b/>
-https://astounding-croissant-e86522.netlify.app/ <b/>
+**View a live version of the page here:** <br/>
+https://astounding-croissant-e86522.netlify.app/ <br/>
 _**I am aware the styling on the landing page has a white bar above the footer. This was not present when running on my machine. Not sure why it has popped up in the deploy. I am looking into it and will fix the issue as soon as i find it**_
 
 ### Table of Contents
