@@ -43,10 +43,10 @@ The website has several features, including:
    - Attractively styled pages.
    - Navigation bar and footer with working links to different pages - made possible with React-router.
    - Shopping page with a variety of products.
-   - A functional filter bar on the shopping page.
+   - A functional filter bar on the shopping page.<br/>
    ![image](https://github.com/robbinwilson24/React.js-ReactRouter-Clothing-Brand-Website/assets/123034061/438603f5-765f-44ae-9f06-b63dca9e216c)
 
-   - Finance page containing a functional interest calculator that uses state to output monthly repayment totals.
+   - Finance page containing a functional interest calculator that uses state to output monthly repayment totals.<br/>
    -![image](https://github.com/robbinwilson24/React.js-ReactRouter-Clothing-Brand-Website/assets/123034061/24f19a7e-e0f0-4c70-98ca-a536f45cb9a3)
 
    - Basic user login page utilising state to create a functional login/logout section.
