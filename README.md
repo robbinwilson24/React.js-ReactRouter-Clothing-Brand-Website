@@ -50,6 +50,7 @@ The website has several features, including:
 
    - Basic user login page utilising state to create a functional login/logout section.
    - Reactive components that adjust depending on screen size.
+   - Use of Lazy Load on the shopping page images. 
    
 ## Technologies Used: <a name="technologies"/>
    - React.js
