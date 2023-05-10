@@ -105,12 +105,12 @@ As per the website, the following people are credited for the pictures:
 - Ivan Samkov
 
 The icons used on the landing page are from www.icons8.com. Their links are as follows:<br/>
-icons8.com/icon/11116/spotify
-icons8.com/icon/36099/amazon
-icons8.com/icon/47179/itunes
-icons8.com/icon/118467/facebook
-icons8.com/icon/32292/instagram
-icons8.com/icon/8824/twitter
+- icons8.com/icon/11116/spotify
+- icons8.com/icon/36099/amazon
+- icons8.com/icon/47179/itunes
+- icons8.com/icon/118467/facebook
+- icons8.com/icon/32292/instagram
+- icons8.com/icon/8824/twitter
 
 
 ## Disclaimer:<a name="disclaimer"/>
