@@ -67,11 +67,11 @@ let LandingPage = function () {
               <img className="socialLink" src={facebookLogo} alt="facebook logo" />
             </a>
 
-            <a href="https://https://www.instagram.com/" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
               <img className="socialLink" src={instagramLogo} alt="instagram logo" />
             </a>
 
-            <a href="https://www.https://twitter.com/" target="_blank" rel="noreferrer">
+            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
               <img className="socialLink" src={twitterLogo} alt="twitter logo" />
             </a>
 
