@@ -104,7 +104,7 @@ As per the website, the following people are credited for the pictures:
 - Andrea Piacquadio
 - Ivan Samkov
 
-The icons used on the landing page are from icons8.com. Their links are as follows:
+The icons used on the landing page are from www.icons8.com. Their links are as follows:<br/>
 icons8.com/icon/11116/spotify
 icons8.com/icon/36099/amazon
 icons8.com/icon/47179/itunes
