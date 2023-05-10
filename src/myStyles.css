@@ -1,0 +1,1172 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(239, 243, 244);
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+}
+
+#mainHeading {
+    font-size: 22px;
+    font-weight: 100;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.product {
+    position: relative;
+    min-width: 400px;
+    max-width: 700px;
+    max-height: 550px;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.product .LazyLoad {
+    width: 100%;
+    height: 100%;
+}
+
+
+.productImage {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    object-fit: cover;
+    transition: .3s;
+
+}
+
+.productImage:hover {
+    transform: scale(102%);
+    transition: .3s;
+}
+
+.productTitle {
+    color: white;
+    font-size: 1.2em;
+    position: absolute;
+    top: 60%;
+    left: 20px;
+    padding: 2px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    border-radius: 20px;
+    box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.195);
+    font-weight: 800;
+}
+
+.productPrice {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    top: 68%;
+    left: 20px;
+    padding: 2px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    border-radius: 20px;
+    box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.195)
+}
+
+.productDescription {
+    color: white;
+    margin-right: 1rem;
+    font-size: 11px;
+    font-weight: 200;
+    text-align: left;
+    position: absolute;
+    top: 77%;
+    left: 20px;
+    padding: 2px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    border-radius: 20px;
+    box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.195)
+}
+
+.addToCartButton {
+    transition: .2s;
+    color: rgb(0, 0, 0);
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    z-index: 2;
+    padding: .3rem;
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.774);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    box-shadow: 2px 2px 0px 0px #000;
+}
+
+.addToCartButton:hover {
+    transform: scale(1.02);
+    transition: .2s;
+    background-color: rgb(255, 255, 255);
+}
+
+.addToCartButton:active {
+    transition: 0.01s;
+    background-color: rgb(205, 205, 205);
+}
+
+
+.sortMenu {
+    color: white;
+    height: 36px;
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+}
+
+.categoryLabel {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    color: white;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.priceLabel {
+    margin-left: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    color: white;
+    font-size: .8rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.categorySelect,
+.priceSelect {
+    width: 85px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 2px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+
+
+#NavigationMenu {
+    margin-top: 40px;
+    padding: 5px;
+    background-color: rgb(35, 35, 35);
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.product {
+    border: 1px solid white;
+    width: 32.9%;
+    height: 500px;
+    margin-top: 1px;
+    background-color: rgb(251, 251, 251);
+    position: relative;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.linkButtons {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    color: white;
+    font-size: 10px;
+    font-weight: 100;
+    text-decoration: none;
+    border: 1px solid rgba(21, 21, 21, 0);
+}
+
+.linkButtons:hover {
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#PageHeading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: rgb(35, 35, 35);
+    z-index: 999;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.9);
+}
+
+.productSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+    z-index: 9;
+}
+
+#userGreeting {
+    border: 3px solid white;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-right: 15%;
+    padding-left: 15%;
+    box-shadow: 1px 1px 5px rgba(21, 21, 21, 0.195);
+    margin-bottom: 5px;
+
+}
+
+#userLogin {
+    border: 3px solid white;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    padding-right: 15%;
+    padding-left: 15%;
+    box-shadow: 1px 1px 5px rgba(21, 21, 21, 0.195);
+    margin-bottom: 45px;
+}
+
+.inputLastName,
+.inputFirstName
+{
+    min-width: 150px;
+    margin-top: 10px;
+}
+
+.inputEmail{
+    min-width: 200px;
+    margin-top: 10px;
+}
+
+#signInButton{
+    min-width: 55px;
+    margin-top: 10px;
+}
+
+#greetingMessage {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#storeLogo {
+    transition: .5s;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    margin-left: 35px;
+    filter: invert(100%);
+}
+
+#storeLogo:hover {
+    animation: spin 2s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    25% {
+        transform: rotate(180deg);
+    }
+
+    75% {
+        transform: rotate(540deg);
+    }
+
+    100% {
+        transform: rotate(45deg);
+    }
+}
+
+#storeLogo2 {
+    width: 40px;
+    height: 40px;
+    transform: rotate(-136deg);
+    margin-right: 35px;
+    filter: invert(100%);
+}
+
+#storeLogo2:hover {
+    animation: spinOpposite 2s cubic-bezier(0.42, 0, 0.58, 1) forwards;
+}
+
+@keyframes spinOpposite {
+    0% {
+        transform: rotate(-135deg);
+    }
+
+    25% {
+        transform: rotate(-180deg);
+    }
+
+    75% {
+        transform: rotate(-540deg);
+    }
+
+    100% {
+        transform: rotate(-135deg);
+    }
+}
+
+
+#logoDiv {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.inputFirstName,
+.inputEmail,
+.inputLastName {
+    width: 20%;
+    margin: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 8px;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.159);
+}
+
+#logoutButton {
+    width: 5%;
+    min-width: 60px;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif ;
+    letter-spacing: 1px;
+    margin: 1%;
+    border: 2px solid rgba(0, 0, 255, 0);
+    border-radius: 15px;
+    padding: 4px;
+    background-color: rgb(18, 18, 167);
+    font-weight: lighter;
+    box-shadow: 1px 1px 2px rgb(18, 18, 167);
+    color: white;
+    font-weight: 700;
+}
+
+#logoutButton:hover,
+#signInButton:hover {
+    transition: 0.1s;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#aboutUs,
+#userProfileInfo {
+    border: 2px solid white;
+    background-color: white;
+    margin: 0 auto;
+    box-shadow: 2px 2px 8px rgb(21, 21, 21);
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 15px;
+
+}
+
+#paymentSection {
+    border: 1px solid rgba(67, 70, 70, 0.037);
+    border-radius: 5px;
+    background-color: rgba(67, 70, 70, 0.187);
+    box-shadow: 2px 2px 5px rgb(21, 21, 21);
+    margin: 0 auto;
+    margin-top: 35px;
+    max-width: 18vw;
+    min-width: 350px;
+    font-weight: 700;
+}
+
+.outputValue,
+#interestInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#interestButton,
+#signInButton {
+    transition: .2s;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    font-family: 'Comfortaa', Arial, Helvetica, sans-serif ;
+    font-weight: 700;
+    font-size: .8rem;
+    border-radius: 10px;
+    background-color: rgb(182, 182, 182);
+    cursor: pointer;
+}
+#interestButton:hover {
+    background-color: rgba(182, 182, 182, 0.834);
+    transform: scale(1.03);
+}
+
+#interestButton:active {
+    background-color: rgb(167, 167, 167);
+    transform: scale(1.03);
+}
+
+.inputItems {
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid rgba(67, 70, 70, 0.006);
+    border-radius: 5px;
+    width: 30%;
+    min-width: 380px;
+    background-color: rgba(67, 70, 70, 0.256);
+    font-weight: 600;
+}
+
+#interestCalculator {
+    border: 2px solid white;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: -30px;
+    box-shadow: 2px 2px 8px rgb(21, 21, 21);
+    margin-bottom: 5%;
+    padding-bottom: 4%;
+}
+
+
+#shelfDiv,
+#aboutUsDiv,
+#contactUsDiv,
+#ethicsDiv,
+#legalDiv,
+#productHeadingDiv,
+#financeDiv,
+#profileDiv {
+    position: relative;
+}
+
+#shelfImage {
+    display: block;
+    margin: 0 auto;
+    margin-top: -24px;
+    width: 100%;
+    min-height: 400px;
+    max-height: 680px;
+    object-fit: cover;
+}
+
+#welcomeHeading {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    font-weight: 100;
+    font-size: 2.1rem;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.310);
+    min-width: 450px;
+    box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.195);
+}
+
+#mainLogo {
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    height: 60%;
+    min-height: 70px;
+    filter: invert(100%);
+
+}
+
+#musicClothesContainer {
+    display: flex;
+}
+
+#loveMusicDiv {
+    width: 50%;
+    max-height: 500px;
+    border-right: 1px solid rgb(239, 243, 244);
+    border-top: 1px solid rgb(239, 243, 244);
+    text-align: center;
+    margin-bottom: -49px;
+}
+
+#loveClothesDiv {
+    width: 50%;
+    max-height: 500px;
+    border-left: 1px solid rgb(239, 243, 244);
+    border-top: 1px solid rgb(239, 243, 244);
+    text-align: center;
+    margin-bottom: -49px;
+}
+
+#headphones,
+#hangers2 {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.musicHeading,
+.clothesHeading {
+    position: relative;
+    margin: 0 auto;
+    top: -65%;
+    font-size: 1.8rem;
+    font-weight: 100;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.242);
+    box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.195);
+    width: fit-content;
+    cursor: default;
+}
+
+.musicIconContainer {
+    position: relative;
+    margin: 0 auto;
+    top: -61%;
+    width: fit-content;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.12);
+
+}
+
+
+.musicLink,
+.socialLink {
+    filter: invert(90%);
+    width: 40px;
+    margin-right: .5rem;
+    margin-left: .5rem;
+
+}
+
+.musicLink:hover,
+.socialLink:hover {
+    filter: invert(100%);
+
+}
+
+.musicLink:active,
+.socialLink:active {
+
+    filter: invert(70%);
+
+}
+
+.clothesLink {
+    transition: .2s;
+    position: relative;
+    margin: 0 auto;
+    top: -60%;
+    font-size: .7rem;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    border-radius: 6px;
+    padding: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: rgba(255, 255, 255, 0.80);
+    width: fit-content;
+    cursor: pointer;
+}
+
+.clothesLink:hover {
+    transition: .2s;
+    background-color: rgba(255, 255, 255, 0.90);
+    box-shadow: 2px 2px 0px 0px #000;
+}
+
+.clothesLink:active {
+    background-color: rgba(216, 214, 214, 0.8);
+    box-shadow: 2px 2px 0px 0px #000;
+
+}
+
+
+#peopleContainer {
+    display: flex;
+}
+
+.socialIconContainer {
+    position: relative;
+    margin: 0 auto;
+    top: -45%;
+    padding-top: 3px;
+    width: fit-content;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.12);
+}
+
+
+#loveYouDiv {
+    width: 100%;
+    max-height: 540px;
+    margin: 0 auto;
+    border-top: 1px solid rgb(239, 243, 244);
+    text-align: center;
+
+}
+
+#people {
+    width: 100%;
+    height: auto;
+    min-height: 510px;
+    max-height: 540px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+#youHeading {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: -11px;
+    top: -51%;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-weight: 100;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.110);
+    box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.195);
+    width: fit-content;
+    cursor: default;
+
+}
+
+#aboutUsImage,
+#contactUsImage,
+#ethicsImage,
+#legalImage,
+#productHeadingImage,
+#financeImage,
+#profileImage {
+    display: block;
+    margin: 0 auto;
+    margin-top: -24px;
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+#aboutUsHeading,
+#contactUsHeading,
+#ethicsHeading,
+#legalHeading,
+#productHeading,
+#financeHeading,
+#profileHeading {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    font-size: 3.2vh;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.310);
+    min-width: 450px;
+    box-shadow: 0 0 50px 0 rgba(255, 255, 255, 0.195);
+}
+
+#numberOfMonths,
+#shoppingTotal {
+    padding-top: 3px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-top: 2px;
+    border-radius: 20px;
+}
+
+#aboutUsParagraphs,
+#ethicsParagraphs,
+#legalParagraphs,
+#financeParagraphs,
+#contactUsParagraphs {
+    margin-top: -3%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5%;
+    font-size: 16px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+#contactDetails {
+    border: 1px solid rgba(0, 0, 0, 0.069);
+    color: white;
+    margin: 0 auto;
+    margin-top: 40px;
+    border-radius: 5px;
+    width: 35%;
+    min-width: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.62);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.395);
+    font-size: 16px;
+}
+
+#physicalAddress {
+    font-weight: 600;
+}
+
+.contactSpan {
+    font-weight: 700;
+}
+
+#physicalAddress>li {
+    list-style-type: none;
+}
+
+#AboutUsSection {
+    font-size: 19px;
+    font-weight: 100;
+}
+
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4%;
+    background-color: rgb(21, 21, 21);
+    z-index: 11111;
+}
+
+#footer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+    margin: 10px;
+    padding: 0;
+}
+
+.footer-list-item,
+#footerC {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-width: fit-content;
+}
+
+.footer-list-item:hover {
+    text-decoration: underline;
+}
+
+#financeDisclaimer {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#interestRate {
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.noItemsFound {
+    margin-top: 5%;
+    padding: 10px;
+
+}
+
+.noItemsFound>h1 {
+    letter-spacing: 2px;
+    font-size: 3.5rem;
+    padding-bottom: 2%;
+}
+
+.noItemsFound>h6 {
+    font-size: 1rem;
+}
+
+
+
+@media screen and (max-width: 849px) {
+    #mainHeading {
+        font-size: 26px;
+    }
+
+    #storeLogo,
+    #storeLogo2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 599px) {
+    #mainHeading {
+        font-size: 20px;
+    }
+
+    #storeLogo,
+    #storeLogo2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1299px) {
+    .product {
+        max-height: 480px;
+    }
+
+    #welcomeHeading {
+        font-size: 1.7rem;
+    }
+
+    .musicHeading,
+    .clothesHeading {
+        font-size: 1.5rem;
+    }
+
+    #youHeading {
+        font-size: 1.6rem;
+    }
+
+    .clothesLink {
+        font-size: .6rem;
+        font-weight: 700;
+        padding: 7px;
+        padding-right: 13px;
+        padding-left: 13px;
+    }
+
+    #aboutUsParagraphs,
+    #ethicsParagraphs,
+    #legalParagraphs,
+    #financeParagraphs,
+    #contactUsParagraphs {
+        margin-top: -3%;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding: 4%;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 1049px) {
+    .product {
+        max-height: 420px;
+    }
+
+    #welcomeHeading {
+        font-size: 1.5rem;
+    }
+
+    .musicHeading,
+    .clothesHeading {
+        font-size: 1.2rem;
+    }
+
+    #youHeading {
+        font-size: 1.3rem;
+    }
+
+    .musicLink,
+    .socialLink {
+        width: 38px;
+
+    }
+
+    .clothesLink {
+        padding: 6px;
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+
+    #aboutUsParagraphs,
+    #ethicsParagraphs,
+    #legalParagraphs,
+    #financeParagraphs,
+    #contactUsParagraphs {
+        margin-left: 8%;
+        margin-right: 8%;
+        padding: 3%;
+    }
+
+    .inputItems {
+        min-width: 300px;
+    }
+
+    #numberOfMonths,
+    #shoppingTotal {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+
+    .product {
+        max-height: 400px;
+        margin: 3%;
+    }
+
+    .productTitle {
+        top: 60%;
+        font-size: 1em;
+    }
+
+    .addToCartButton {
+        right: 1rem;
+
+    }
+
+    #welcomeHeading {
+        font-size: 1.2rem;
+    }
+
+    .musicHeading,
+    .clothesHeading {
+        font-size: 1rem;
+    }
+
+    #youHeading {
+        font-size: 1.1rem;
+    }
+
+    .musicLink,
+    .socialLink {
+        width: 34px;
+    }
+
+    .clothesLink {
+        font-size: .6rem;
+        padding: 5px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #aboutUsParagraphs,
+    #ethicsParagraphs,
+    #legalParagraphs,
+    #financeParagraphs,
+    #contactUsParagraphs {
+        margin-top: 0%;
+        margin-left: 6%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+        padding: 2%;
+        font-size: 15px;
+    }
+
+    .inputItems {
+        min-width: 180px;
+        font-size: .9rem;
+    }
+
+    #numberOfMonths,
+    #shoppingTotal {
+        width: 150px;
+    }
+
+    #paymentSection {
+        margin-top: 25px;
+        min-width: 300px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .outputValue{
+        font-size: .8rem;
+    }
+
+    #contactDetails {
+        margin: 0 auto;
+        margin-top: 60px;
+        width: 30%;
+        min-width: 340px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 40px;
+        padding-top: 20px;
+        font-size: 15px;
+    }
+
+    #logoutButton{
+        margin-bottom: 55px;
+    }
+
+    .footer-list-item,
+#footerC {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 9px;
+}
+    
+}
+
+@media screen and (max-width: 479px) {
+    #welcomeHeading {
+        font-size: .9rem;
+        padding: 2px;
+        min-width: 290px;
+
+    }
+
+    .musicHeading,
+    .clothesHeading {
+        font-size: .7rem;
+    }
+
+    .musicLink,
+    .socialLink {
+        width: 28px;
+    }
+
+    .clothesLink {
+        font-size: .5rem;
+        padding: 4px;
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    #aboutUsParagraphs,
+    #ethicsParagraphs,
+    #legalParagraphs,
+    #financeParagraphs,
+    #contactUsParagraphs {
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 9%;
+        margin-bottom: 8%;
+        padding: 1%;
+        font-size: .8rem;
+    }
+
+    .inputItems {
+        min-width: 120px;
+        font-size: .6rem;
+    }
+
+    #numberOfMonths,
+    #shoppingTotal {
+        width: 90px;
+        padding: 1px;
+        padding-left: 8px;
+        font-size: .7rem;
+    }
+
+    #paymentSection {
+        margin-top: 20px;
+        min-width: 200px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .outputValue{
+        font-size: .7rem;
+    }
+
+    #interestRate{
+        font-size: .5rem;
+    }
+
+    #contactDetails {
+        width: 30%;
+        min-width: 260px;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 13px;
+    }
+
+    .contactSpan{
+        font-size: 14px;
+    }
+
+    #contactEmail{
+        font-size: 11px;
+    }
+
+    
+.inputLastName,
+.inputFirstName
+{
+    min-width: 200px;
+    margin-top: 10px;
+}
+
+.inputEmail{
+    min-width: 200px;
+    margin-top: 10px;
+}
+
+#signInButton{
+    min-width: 55px;
+    margin-top: 10px;
+}
+
+.sortMenu {
+    height: fit-content;
+    padding: 5px;
+    margin-bottom: -9px;
+}
+
+.product {
+    margin-bottom: -8px;
+
+    box-sizing: border-box;
+    border: 3px solid;
+}
+
+}
