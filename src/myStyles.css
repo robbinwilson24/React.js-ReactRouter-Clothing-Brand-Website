@@ -651,6 +651,7 @@ a {
 
 }
 
+
 #people {
     width: 100%;
     height: auto;
@@ -659,6 +660,7 @@ a {
     object-fit: cover;
     display: block;
     margin: 0 auto;
+    margin-bottom: -49px;
 }
 
 #youHeading {
