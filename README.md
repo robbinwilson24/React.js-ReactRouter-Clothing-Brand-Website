@@ -14,9 +14,11 @@ I created this site to demonstrate my abilities in using React.js and to show th
 7. [Disclaimer](#disclaimer)
 
 _Desktop view_
+
 ![image](https://user-images.githubusercontent.com/123034061/224018685-b6049ad2-cad6-4c33-9827-853af81a1a21.png)
 
 _Mobile View_
+
 ![image](https://github.com/robbinwilson24/React.js-ReactRouter-Clothing-Brand-Website/assets/123034061/3fce3866-3af7-4b84-93c9-4919038bcd11)
 
 
