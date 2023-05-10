@@ -13,6 +13,8 @@ I created this site to demonstrate my abilities in using React.js and to show th
 6. [Credits](#credits)
 7. [Disclaimer](#disclaimer)
 
+
+
 _Desktop view_
 
 ![image](https://user-images.githubusercontent.com/123034061/224018685-b6049ad2-cad6-4c33-9827-853af81a1a21.png)
